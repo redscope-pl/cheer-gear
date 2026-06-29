@@ -1,0 +1,32 @@
+{
+  "name": "cheer-gear",
+  "version": "0.1.0",
+  "description": " implementation of payment terminal interface using the \"Cheers protocol\" by combining common electronic modules and opensource software as proof-of-work DIY project",
+  "keywords": [
+    "arduino",
+    "esp32"
+  ],
+  "homepage": "https://github.com/redscope-pl/cheer-gear#readme",
+  "bugs": {
+    "url": "https://github.com/redscope-pl/cheer-gear/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redscope-pl/cheer-gear.git"
+  },
+  "license": "MIT",
+  "author": "Sett Sarverott",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "task test"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "octokit": "^5.0.5",
+    "snyk": "^1.1305.2"
+  }
+}

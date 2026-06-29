@@ -1,0 +1,21 @@
+profiles:
+  mark1:
+    fqbn: esp32:esp32:nologo_esp32c3_super_mini
+    platforms:
+      - platform: esp32:esp32 (3.3.10)
+    libraries:
+      - MFRC522_NTAG424DNA (1.0.1)
+      - MFRC522 (1.4.12)
+      - dependency: Adafruit BusIO (1.17.4)
+      - dependency: Adafruit GFX Library (1.12.6)
+      - DIYables_OLED_SSD1309 (1.0.2)
+      - TOTP library (1.1.0)
+      - dependency: AES_CMAC (1.0.0)
+      - dependency: CRC32 (2.0.1)
+      - dependency: CryptoAES_CBC (1.0.0)
+      - SdFat (2.3.0)
+
+default_profile: mark1
+default_port: /dev/ttyACM0
+default_port_config:
+  baudrate: 115200
