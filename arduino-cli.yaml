@@ -1,0 +1,6 @@
+board_manager:
+    additional_urls: 
+        - https://espressif.github.io/arduino-esp32/package_esp32_index.json
+        # - https://jihulab.com/esp-mirror/espressif/arduino-esp32/-/raw/gh-pages/package_esp32_index_cn.json # for china users
+        - https://arduino.esp8266.com/stable/package_esp8266com_index.json
+        
